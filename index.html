@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For My Favorite Person ❤️</title>
+  <style>
+    body {
+      background-color: #ffe6f0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    h1 {
+      color: #ff4d88;
+    }
+
+    button {
+      background-color: #ff4d88;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #ff1a66;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Hey Love 💕</h1>
+  <p>I made this website just for you.</p>
+
+  <button onclick="showMessage()">Click Me ❤️</button>
+  <p id="message"></p>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").innerText =
+        "You are the best thing that ever happened to me 💖";
+    }
+  </script>
+
+</body>
+</html>
